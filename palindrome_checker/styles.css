@@ -1,0 +1,103 @@
+body{
+    background-image: url(gradient.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    background-color: #e2f1f2;
+    
+}
+
+
+h1{
+    margin-top: -95px;
+    font-family: "Playfair Display", sans-serif;
+    color: #353935;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+#text-input{
+    height: 40px;
+    width: 70%;
+    padding-left: 10px;
+    margin-top : 60px;
+    border-radius: 19px 0 0 19px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+}
+
+#check-btn{
+    height: 40px;
+    border-radius: 0 19px 19px 0 ;
+    position: absolute;
+    margin-top : 60px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+
+}
+
+#result{
+    text-align: center;
+    margin: 50px  0px -30px 0;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-family: "Playfair Display", sans-serif;
+    color: #034956;
+    /* border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2); */
+    /* box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 20px; */
+     
+      
+}
+
+
+#text-input:focus{
+    outline: none;
+}
+#check-btn:hover{
+    background-color: #b8ccd9;
+    transition: 0.1s;
+}
+
+form{
+    /* border: 2px solid black; */
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+  
+  
