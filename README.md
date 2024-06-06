@@ -10,4 +10,4 @@
 <h2>Java Script Responsive Web Design</h2>
 <h3>Tech Stack - JavaScript, HTML & CSS</h3>
 <p>A simple project to check if user input is palindrome or not.</p>
-<p>So basicaaly this takes input from the user, removes all the non-alphanumeric characters and performs a palindrome check on it.</p>
+<p>So basically this takes input from the user, removes all the non-alphanumeric characters and performs a palindrome check on it.</p>
