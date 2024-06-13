@@ -10,6 +10,7 @@ The web page includes a list of all my projects completed up to the point of its
 
 <h1>Project 2 : Palindrome Checker</h1>
 <h3>Technologies Used - JavaScript, HTML & CSS</h3>
+<h4>Try it out here - https://vishsig.github.io/palindrome-checker/</h4>
 <p>This project involved the creation of an interactive web application designed to verify if a user’s input is a palindrome. The application was developed using JavaScript for the core functionality, HTML for the structural framework, and CSS for the visual design.
 
 The application is designed to be user-friendly, accepting input from the user, sanitizing it by removing all non-alphanumeric characters, and then performing a palindrome check. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
