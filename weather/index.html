@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <h1 class="heading">Gradient Weather<i class='bx bxl-graphql'></i></h1>
+        <div class="search">
+            <input id="input" spellcheck="false" type="text" placeholder="Enter city">
+            <button id="srch-btn" type="button"><i class='bx bx-search-alt'></i></button>
+        </div> 
+        <div id="error" class="error">
+            <p id="message">Please Enter a correct city name</p>
+        </div>
+        <div id="weather" class="weather">
+            <img id="weather-icon" class="weather-icon" src="./images/rain.png">
+            <h1 id="temp" class="temp">22°C</h1>
+            <h2 id="city" calss="city">New York</h2>
+            <h3 id ="state" class="state">Cloudy</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/wind.png" class="icon">
+                    <div>
+                        <p id="wind-speed" class="wind">10 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/humidity.png" class="icon">
+                    <div>
+                        <p id="humidity" class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
