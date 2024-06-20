@@ -36,7 +36,7 @@ This project demonstrates a strong understanding of algorithmic thinking, user i
 
 <h1>Project 4 : Weather Information Web Application</h1>
 <h3>Technologies Used: JavaScript, HTML, CSS</h3>
-<h4>Try it out here - https://vishsig.github.io/weather-app/</h4>
+<h4>Try it out here - https://vishsig.github.io/Weather-App/</h4>
 
 <p>This project involved the development of a dynamic web application designed to provide real-time weather information for any given city. The application was built using a robust tech stack including JavaScript for functionality, HTML for structure, and CSS for styling.
 
